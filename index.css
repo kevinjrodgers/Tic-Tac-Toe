@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url("wood_background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#header {
+    font-family: "Lucida Console", Courier, monospace;
+    width: 100%;
+    text-align: center;
+}
+
+.player-display {
+    width: 250px;
+    height: 125px;
+    text-align: center;
+    display: inline-block;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+#player-one {
+    background-color: #FF5959;
+}
+
+#player-two {
+    background-color: dodgerblue;
+}
+
+hr.solid {
+    border-top: 3px solid #bbb;
+}
+
+#game-board {
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 591px;
+    height: 590px;
+    display: inline-block;
+    pointer-events: none;
+    background-color: white;
+}
+
+.game-board-space {
+    border: 2px solid black;
+    width: 193px;
+    height: 193px;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    line-height: 193px;
+    text-align: center;
+    font-size: 10em;
+    float: left;
+    clear: none;
+}
+
+.game-board-space:hover {
+    transition-duration: 0.3s;
+    background-color: lightgrey;
+}
+
+#start-button {
+    background-color: white;
+    border-radius: 5px;
+    border: 5px solid black;
+    width: 100px;
+    height: 50px;
+    margin: 5px;
+}
+
+#start-button:hover {
+    background-color: lightgrey;
+    transition-duration: 0.3s;
+}
+
+#button-div {
+    display: flex;
+    justify-content: center;
+}
+
+#main-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
